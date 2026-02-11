@@ -101,6 +101,6 @@ createBot()
 
 // ⏳ 40 SANİYEDE RESET + YENİ NICK
 setInterval(() => {
-  console.log("40 saniye doldu → reset + yeni nick")
+  console.log("40 dakika doldu → reset + yeni nick")
   if (bot) bot.end()
-}, 40 * 1000)
+}, 40 * 60 * 1000)
